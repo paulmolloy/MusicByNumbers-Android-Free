@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/musicbynumbersbg"
+        android:orientation="vertical"
+        android:layout_weight="100" >
+
+         <ImageButton
+             android:id="@+id/imagelogo"
+             android:layout_width="match_parent"
+             android:layout_height="41dp"
+             android:gravity="center"
+             android:background="@drawable/topbanner" />
+        
+       <ScrollView android:layout_weight="90" android:layout_width="fill_parent"
+		android:layout_height="fill_parent">
+		  
+
+		<LinearLayout android:orientation="vertical"
+			android:layout_width="match_parent" android:layout_height="match_parent">
+			<TextView
+            android:id="@+id/conttv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="Major Contrary Motion"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+
+        <Button
+            android:id="@+id/aflatcontb"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="A Flat Contrary Motion" />
+
+        <Button
+            android:id="@+id/acontb"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="A Contrary Motion" />
+
+        <Button
+            android:id="@+id/bflatcontb"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="B Flat Contrary Motion" />
+
+        <Button
+            android:id="@+id/bcontb"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="B Contrary Motion" />
+
+        <Button
+            android:id="@+id/ccontb"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="C Contrary Motion" />
+
+        <Button
+            android:id="@+id/dflatcontb"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="D Flat Contrary Motion" />
+
+        <Button
+            android:id="@+id/dcontb"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="D Contrary Motion" />
+
+        <Button
+            android:id="@+id/eflatcontb"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.00"
+            android:text="E Flat Contrary Motion" />
+
+        <Button
+            android:id="@+id/econtb"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.00"
+            android:text="E Contrary Motion" />
+        <Button
+            android:id="@+id/fcontb"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="F Contrary Motion" />
+
+        <Button
+            android:id="@+id/fsharpcontb"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="F Sharp Contrary Motion" />
+
+        <Button
+            android:id="@+id/gcontb"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.00"
+            android:text="G Contrary Motion" />
+
+        
+		
+		</LinearLayout>
+	</ScrollView>
+
+      
+
+    </LinearLayout>
+

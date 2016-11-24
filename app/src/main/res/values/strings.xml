@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">MusicByNumbers</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="abouttext">"x" </string>
+   
+         <string name="check_license">Check license</string>
+<string name="checking_license">Checking license...</string>
+<string name="dont_allow">Don\'t allow the user access</string>
+<string name="allow">Allow the user access</string>
+<string name="application_error">Application error: %1$s</string>
+<!-- Unlicensed dialog messages -->
+<string name="unlicensed_dialog_title">Application not licensed</string>
+<string name="unlicensed_dialog_body">This application is not licensed. Please purchase it from Android Market.</string>
+<string name="buy_button">Buy app</string>
+<string name="quit_button">Exit</string>
+     <string name="appinfo">This is the free sample version of "Music by Numbers: Scales Guide". 
+         The full version incudes: 
+- Minor Harmonic
+- Minor Melodic
+- Chromatic scales
+- Major Arpeggios
+- Minor Arpeggios
+- Contrary Motion Scales
+- Pentatonic Scales 
+It is also ad free. If you like this app you can buy the full version here.
+</string>
+<string name="notcurrentlyinuse">If you like this app you can buy the full version that includes all of the  Major, Harmonic Minor, Melodic Minor, Major and Minor Arpeggios, Chromatic, Contrary Motions and Pentatonic Scales</string>
+        
+    
+
+</resources>

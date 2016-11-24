@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+         xmlns:ads="http://schemas.android.com/apk/lib/com.google.ads"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/musicbynumbersbg"
+        android:orientation="vertical"
+        android:layout_weight="100" >
+         <ImageButton
+            android:id="@+id/imagelogo"
+            android:layout_width="match_parent"
+            android:layout_height="52dp"
+            android:layout_weight="10"
+            android:gravity="center"
+            android:background="@drawable/topbanner"/>
+        
+        
+       <ScrollView android:layout_weight="90" android:layout_width="fill_parent"
+		android:layout_height="fill_parent">
+		  
+
+		<LinearLayout android:orientation="vertical"
+			android:layout_width="match_parent" android:layout_height="match_parent">
+			<TextView
+            android:id="@+id/meltv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="Minor Melodic Scales"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+
+        <Button
+            android:id="@+id/aflatmelb"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="A Flat Minor Melodic" />
+
+        <Button
+            android:id="@+id/amelb"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="A Minor Melodic" />
+
+        <Button
+            android:id="@+id/bflatmelb"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="B Flat Minor Melodic" />
+
+        <Button
+            android:id="@+id/bmelb"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="B Minor Melodic" />
+
+        <Button
+            android:id="@+id/cmelb"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="C Minor Melodic" />
+
+        <Button
+            android:id="@+id/dflatmelb"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="D Flat Minor Melodic" />
+
+        <Button
+            android:id="@+id/dmelb"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="D Minor Melodic" />
+
+        <Button
+            android:id="@+id/eflatmelb"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.00"
+            android:text="E Flat Minor Melodic" />
+
+        <Button
+            android:id="@+id/emelb"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.00"
+            android:text="E Minor Melodic" />
+        <Button
+            android:id="@+id/fmelb"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="F Minor Melodic" />
+
+        <Button
+            android:id="@+id/fsharpmelb"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="F Sharp Minor Melodic" />
+
+        <Button
+            android:id="@+id/gmelb"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.00"
+            android:text="G Minor Melodic" />
+
+        
+		
+		</LinearLayout>
+	</ScrollView>
+   <com.google.ads.AdView
+        android:id="@+id/ad"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        ads:adSize="SMART_BANNER"
+        ads:adUnitId="a15144ab55b99a9"
+        ads:loadAdOnCreate="true"
+        android:layout_gravity="center"
+       >
+    </com.google.ads.AdView>
+  
+      
+
+    </LinearLayout>

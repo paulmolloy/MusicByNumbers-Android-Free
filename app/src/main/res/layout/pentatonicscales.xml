@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/musicbynumbersbg"
+        android:orientation="vertical"
+        android:layout_weight="100" >
+         <ImageButton
+            android:id="@+id/imagelogo"
+            android:layout_width="match_parent"
+            android:layout_height="52dp"
+            android:layout_weight="10"
+            android:gravity="center"
+            android:background="@drawable/topbanner"
+           />
+        
+        
+       <ScrollView android:layout_weight="90" android:layout_width="fill_parent"
+		android:layout_height="fill_parent">
+		  
+
+		<LinearLayout android:orientation="vertical"
+			android:layout_width="match_parent" android:layout_height="match_parent">
+			<TextView
+            android:id="@+id/penttv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="Pentatonic Scales"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+
+        <Button
+            android:id="@+id/aflatpentb"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="A Flat Pentatonic Scale" />
+
+        <Button
+            android:id="@+id/apentb"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="A Pentatonic Scale" />
+
+        <Button
+            android:id="@+id/bflatpentb"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="B Flat Pentatonic Scale" />
+
+        <Button
+            android:id="@+id/bpentb"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="B Pentatonic Scale" />
+
+        <Button
+            android:id="@+id/cpentb"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="C Pentatonic Scale" />
+
+        <Button
+            android:id="@+id/dflatpentb"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="D Flat Pentatonic Scale" />
+
+        <Button
+            android:id="@+id/dpentb"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="D Pentatonic Scales" />
+
+        <Button
+            android:id="@+id/eflatpentb"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.00"
+            android:text="E Flat Pentatonic Scale" />
+
+        <Button
+            android:id="@+id/epentb"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.00"
+            android:text="E Pentatonic Scale" />
+        <Button
+            android:id="@+id/fpentb"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="F Pentatonic Scale" />
+
+        <Button
+            android:id="@+id/fsharppentb"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="F Sharp Pentatonic Scale" />
+
+        <Button
+            android:id="@+id/gpentb"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.00"
+            android:text="G Pentatonic Scale" />
+
+        
+		
+		</LinearLayout>
+	</ScrollView>
+
+      
+
+    </LinearLayout>

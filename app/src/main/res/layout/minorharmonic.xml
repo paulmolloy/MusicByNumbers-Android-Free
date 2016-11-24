@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/musicbynumbersbg"
+        android:orientation="vertical"
+        android:layout_weight="100" >
+         <ImageButton
+            android:id="@+id/imagelogo"
+            android:layout_width="match_parent"
+            android:layout_height="52dp"
+            android:layout_weight="10"
+            android:gravity="center"
+            android:background="@drawable/topbanner"
+             />
+        
+        
+       <ScrollView android:layout_weight="90" android:layout_width="fill_parent"
+		android:layout_height="fill_parent">
+		  
+
+		<LinearLayout android:orientation="vertical"
+			android:layout_width="match_parent" android:layout_height="match_parent">
+			<TextView
+            android:id="@+id/harmtv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="Minor Harmonic Scales"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+
+        <Button
+            android:id="@+id/aflatharmb"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="A Flat Minor Harmonic" />
+
+        <Button
+            android:id="@+id/aharmb"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="A Minor Harmonic" />
+
+        <Button
+            android:id="@+id/bflatharmb"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="B Flat Minor Harmonic" />
+
+        <Button
+            android:id="@+id/bharmb"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="B Minor Harmonic" />
+
+        <Button
+            android:id="@+id/charmb"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="C Minor Harmonic" />
+
+        <Button
+            android:id="@+id/dflatharmb"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="D Flat Minor Harmonic" />
+
+        <Button
+            android:id="@+id/dharmb"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="D Minor Harmonic" />
+
+        <Button
+            android:id="@+id/eflatharmb"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.00"
+            android:text="E Flat Minor Harmonic" />
+
+        <Button
+            android:id="@+id/eharmb"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.00"
+            android:text="E Minor Harmonic" />
+        <Button
+            android:id="@+id/fharmb"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="F Minor Harmonic" />
+
+        <Button
+            android:id="@+id/fsharpharmb"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="F Sharp Minor Harmonic" />
+
+        <Button
+            android:id="@+id/gharmb"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.00"
+            android:text="G Minor Harmonic" />
+
+        
+		
+		</LinearLayout>
+	</ScrollView>
+
+      
+
+    </LinearLayout>

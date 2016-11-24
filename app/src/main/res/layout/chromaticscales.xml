@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/musicbynumbersbg"
+        android:orientation="vertical"
+        android:layout_weight="100" >
+         <ImageButton
+            android:id="@+id/imagelogo"
+            android:layout_width="match_parent"
+            android:layout_height="52dp"
+            android:layout_weight="10"
+            android:gravity="center"
+            android:background="@drawable/topbanner" />
+        
+        
+       <ScrollView android:layout_weight="90" android:layout_width="fill_parent"
+		android:layout_height="fill_parent">
+		  
+
+		<LinearLayout android:orientation="vertical"
+			android:layout_width="match_parent" android:layout_height="match_parent">
+			<TextView
+            android:id="@+id/chromatictv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="Chromatic Scales"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+
+        <Button
+            android:id="@+id/aflatchromeb"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="A Flat Chromatic" />
+
+        <Button
+            android:id="@+id/achromeb"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="A Chromatic" />
+
+        <Button
+            android:id="@+id/bflatchromeb"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="B Flat Chromatic" />
+
+        <Button
+            android:id="@+id/bchromeb"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="B Chromatic" />
+
+        <Button
+            android:id="@+id/cchromeb"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="C Chromatic" />
+
+        <Button
+            android:id="@+id/dflatchromeb"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="D Flat Chromatic" />
+
+        <Button
+            android:id="@+id/dchromeb"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="D Chromatic" />
+
+        <Button
+            android:id="@+id/eflatchromeb"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.00"
+            android:text="E Flat Chromatic" />
+
+        <Button
+            android:id="@+id/echromeb"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.00"
+            android:text="E Chromatic" />
+        <Button
+            android:id="@+id/fchromeb"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="F Chromatic" />
+
+        <Button
+            android:id="@+id/fsharpchromeb"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="F Sharp Chromatic" />
+
+        <Button
+            android:id="@+id/gchromeb"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.00"
+            android:text="G Chromatic" />
+
+        
+		
+		</LinearLayout>
+	</ScrollView>
+
+      
+
+    </LinearLayout>

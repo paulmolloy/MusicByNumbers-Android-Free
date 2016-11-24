@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+         xmlns:ads="http://schemas.android.com/apk/lib/com.google.ads"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/musicbynumbersbg"
+        android:orientation="vertical"
+        android:layout_weight="100" >
+
+        <ImageButton
+            android:id="@+id/imagelogo"
+            android:layout_width="match_parent"
+            android:layout_height="52dp"
+            android:background="@drawable/topbanner" />
+        
+       <ScrollView android:layout_weight="90" android:layout_width="fill_parent"
+		android:layout_height="fill_parent">
+		  
+
+		<LinearLayout android:orientation="vertical"
+			android:layout_width="match_parent" android:layout_height="match_parent">
+			<TextView
+            android:id="@+id/majortv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="Major Scales"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+
+        <Button
+            android:id="@+id/aflatmajb"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="A Flat Major" />
+
+        <Button
+            android:id="@+id/amajb"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="A Major" />
+
+        <Button
+            android:id="@+id/bflatmajb"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="B Flat Major" />
+
+        <Button
+            android:id="@+id/bmajb"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="B Major" />
+
+        <Button
+            android:id="@+id/cmajb"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="C Major" />
+
+        <Button
+            android:id="@+id/dflatmajb"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="D Flat Major" />
+
+        <Button
+            android:id="@+id/dmajb"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="D Major" />
+
+        <Button
+            android:id="@+id/eflatmajb"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.00"
+            android:text="E Flat Major" />
+
+        <Button
+            android:id="@+id/emajb"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.00"
+            android:text="E Major" />
+        <Button
+            android:id="@+id/fmajb"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="F Major" />
+
+        <Button
+            android:id="@+id/fsharpmajb"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="F Sharp major" />
+
+        <Button
+            android:id="@+id/gmajb"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.00"
+            android:text="G Major" />
+
+        
+		
+		</LinearLayout>
+	</ScrollView>
+
+         <com.google.ads.AdView
+        android:id="@+id/ad"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        ads:adSize="SMART_BANNER"
+        ads:adUnitId="a15144ab55b99a9"
+        ads:loadAdOnCreate="true"
+        android:layout_gravity="center"
+       >
+    </com.google.ads.AdView>
+  
+
+    </LinearLayout>

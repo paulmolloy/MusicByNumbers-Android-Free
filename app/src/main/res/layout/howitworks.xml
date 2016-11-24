@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+     xmlns:ads="http://schemas.android.com/apk/lib/com.google.ads"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    android:background="@drawable/musicbynumbersbg">
+    
+
+     <ImageButton
+            android:id="@+id/imagelogo"
+            android:layout_width="match_parent"
+            android:layout_height="52dp"
+            android:layout_weight="10"
+            android:gravity="center"
+            android:background="@drawable/topbanner" />
+        
+     
+       
+       <ScrollView android:layout_weight="90" android:layout_width="fill_parent"
+		android:layout_height="fill_parent">
+		  
+
+		<LinearLayout android:orientation="vertical"
+			android:layout_width="match_parent" android:layout_height="match_parent">
+			<TextView
+            android:id="@+id/howtotv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="Chromatic Scales"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+
+        <Button
+            android:id="@+id/fingersb"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="The Fingers and their Numbers" />
+
+        <Button
+            android:id="@+id/keyboardsb"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="How to Use the Keyboard" />
+
+       
+        
+		
+		</LinearLayout>
+	</ScrollView>
+     
+          <com.google.ads.AdView
+        android:id="@+id/ad"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        ads:adSize="SMART_BANNER"
+        ads:adUnitId="a15144ab55b99a9"
+        ads:loadAdOnCreate="true"
+        android:layout_gravity="center"
+       >
+    </com.google.ads.AdView>
+  
+</LinearLayout>
